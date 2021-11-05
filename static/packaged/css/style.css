@@ -14,11 +14,9 @@
 }
 
 html {
-  display: flex;
   color: rgb(231, 184, 184)
 }
 p {
-  display: flex;
   color: white;
   font-family: Segoe UI;
 }
@@ -26,4 +24,9 @@ iframe {
   display: -webkit-flex;
   font-family: Segoe UI;
   color: auto;
+}
+p>::-webkit-validation-bubble-arrow-clipper {
+  display: -ms-flexbox;
+  font-family: Segoe UI;
+  color: black;
 }
