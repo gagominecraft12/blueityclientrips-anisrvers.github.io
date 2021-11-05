@@ -12,3 +12,18 @@
 .containerflex {
   display: flex;
 }
+
+html {
+  display: flex;
+  color: rgb(231, 184, 184)
+}
+p {
+  display: flex;
+  color: white;
+  font-family: Segoe UI;
+}
+iframe {
+  display: -webkit-flex;
+  font-family: Segoe UI;
+  color: auto;
+}
